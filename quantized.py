@@ -7,7 +7,7 @@ p = ArgumentParser(description = 'python splice_test.py [options] ')
 p.add_argument('host', type = str, default = '10.0.1.217', help = 'Specify the host name')
 p.add_argument('-s', '--shift', dest = 'shift', type = int, default = 2047, help = 'set shift value for fft biplex block')
 p.add_argument('-l', '--length', dest = 'length', type = int, default = 2e6, help = 'set # of spectra to be accumulated')
-p.add_argument('-c', '--scale', dest = 'scale', type = int, default = 1000, help = 'scale coefficient')
+p.add_argument('-c', '--scale', dest = 'scale', type = int, default = 4096, help = 'scale coefficient')
 
 args = p.parse_args()
 host = args.host
