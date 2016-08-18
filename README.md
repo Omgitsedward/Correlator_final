@@ -3,8 +3,6 @@ Repository to hold final versions of working codes, bof files, and models
 Who knows how long it will take before it will get outdated, but contact me should you have questions at:
 	eddietoral16@gmail.com
 	
-	
-
 adc_stats is to be used to check the digital outputs, 1 antenna at a time using option '-a', of the SNAP board
 	Not included in the larger models to preserve space for BRAMs
 	2^16 data points collected per cnt_rst
