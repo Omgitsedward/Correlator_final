@@ -39,7 +39,7 @@ print "Hey this one is rms"
 print rms
 
 plt.figure(1)
-plt.title('adc data: Antenna %n',antenna)
+plt.title('adc data: Antenna %i',antenna)
 plt.plot(time,ad,'k')
 plt.axis([0,65535,-136,135])
 plt.grid(True)
