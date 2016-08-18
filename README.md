@@ -19,4 +19,3 @@ noise3 is the 12-input extension of small_scale correlator
 
 quantized is the 12-input correlator with each input with its own scale to quantize to 4_3
 	quantized.py currently only takes in a single value '-c' to scale all 12 data lines at once, code would need to be changed to scale each individually should it be necessary
-
