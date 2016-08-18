@@ -3,7 +3,7 @@ import corr, struct, numpy as np, matplotlib.pyplot as plt, time
 
 #--------------------------------------------------------------------------------------------------------------------------------------
 from argparse import ArgumentParser
-p = ArgumentParser(description = 'python splice_test.py [options] ')
+p = ArgumentParser(description = 'python quantized.py [options] ')
 p.add_argument('host', type = str, default = '10.0.1.217', help = 'Specify the host name')
 p.add_argument('-s', '--shift', dest = 'shift', type = int, default = 2047, help = 'set shift value for fft biplex block')
 p.add_argument('-l', '--length', dest = 'length', type = int, default = 2e6, help = 'set # of spectra to be accumulated')
