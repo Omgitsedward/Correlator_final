@@ -11,7 +11,7 @@
 from argparse import ArgumentParser
 p = ArgumentParser(description = 'python adc_stats.py [options] ')
 p.add_argument('host', type = str, default = '10.0.1.217', help = 'Specify the host name')
-p.add_argument('-a', '--antenna', dest = 'antenna', type = int, default = 2047, help = 'antenna selection')
+p.add_argument('-a', '--antenna', dest = 'antenna', type = int, default = 0, help = 'antenna selection')
 
 args = p.parse_args()
 host = args.host
