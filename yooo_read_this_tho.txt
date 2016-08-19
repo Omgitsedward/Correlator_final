@@ -9,7 +9,7 @@
 	adc_stats is to be used to check the digital outputs, 1 antenna at a time using option '-a', of the SNAP board
 		Not included in the larger models to preserve space for BRAMs
 		2^16 data points collected per cnt_rst
-		script provides plot of the ADC digital output data and histogram of the digital levels recorded into 256 bins (-128 to 127)
+		script provides plot of the ADC digital output data and histogram of the digital levels into 256 bins (-128 to 127)
 
 	Correlators ue 10-point pfbs & ffts for 9-point spectra per input
 
